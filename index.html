@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sidebar Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+<body>
+<!-- Header -->
+  <header class="header">
+    <span class="open-slide">
+    <a class="angle-right tooltip">
+    <i class="fas fa-chevron-circle-right"></i><span class="tooltiptext position">Expand Side Panel</span> 
+    </a>
+    </span>
+    <div>
+       <ul class="header-nav">
+          <h1>Sidebar</h1>
+       </ul>
+    </div>
+ </header>
+<!-- End Header -->
+
+ <!-- Sidebar -->
+ <div class="side-nav">
+  <div class="menu-box">
+     <h5>Main Menu</h5>
+     <div class="tooltip"><a class="times"><i class="fas fa-times-circle"></i><span class="tooltiptext">Collapse Side Panel</span></a></div>
+  </div>
+  <ul class="list-container">
+     <div class="list">
+        <li class=" active">
+          <span class="row"><i class="fas fa-home"></i>Home</span><i class="fas fa-angle-right"></i>
+        </li>
+        <li>
+          <span class="row"><i class="fas fa-wrench"></i>Services</span><i class="fas fa-angle-right"></i>
+        </li>
+        <li>
+          <span class="row"><i class="fas fa-info-circle"></i>About</span><i class="fas fa-angle-right"></i>
+        </li>
+        <li>
+          <span class="row"><i class="fas fa-briefcase"></i>Work</span><i class="fas fa-angle-right"></i>
+        </li>
+        <li>
+          <span class="row"><i class="fab fa-js-square"></i>JavaScript</span><i class="fas fa-angle-right"></i>
+        </li>
+        <li>
+          <span class="row"><i class="fas fa-phone"></i>Contact</span><i class="fas fa-angle-right"></i>
+        </li>
+        <li>
+          <span class="row"><i class="fas fa-project-diagram"></i>Projects</span><i class="fas fa-angle-right"></i>
+        </li>
+        <li class="card">
+          <span class="row"><i class="fas fa-search"></i>Search</span><i class="fas fa-angle-right"></i>
+        </li>
+     </div>
+  </ul>
+  <!-- Input -->
+  <div class="searchbox">
+    <input class="search" type="text" placeholder="Search..."/>
+ </div>
+ </div>
+  <!-- End Sidebar -->
+
+
+ <!-- Background Image -->
+ <section class="background"></section>
+
+<script src="jquery.js"></script> 
+<script src="script.js"></script>   
+  
+</body>
+</html>
