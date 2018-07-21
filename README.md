@@ -17,7 +17,7 @@ After downloading, simply edit the HTML and CSS files included with the template
 
 ## Copyright and License
 
-Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/MsMatki/Sidebar/blob/master/LICENSE) license.
+Copyright 2018 By Bartol. Code released under the [MIT](https://github.com/MsMatki/Sidebar/blob/master/LICENSE) license.
 
 ## Created With
 * Html
