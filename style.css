@@ -13,6 +13,7 @@
 
 ==================== */
 
+
 body{
   font-family:'Open Sans', sans-serif;
   background-color:#f4f4f4;
@@ -242,7 +243,9 @@ input::placeholder {
 /* =============== BACKGROUND IMAGE ================== */
 
 .background{
-  background-image:url('background-image.jpg');
+  background-color:rgb(207, 146, 31);
   height:100vh;
   background-size: cover;
 }
+
+/* ====== END CONTENT ====== */
