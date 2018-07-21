@@ -2,6 +2,10 @@
 
 Simple Sidebar is an off canvas sidebar navigation template created with Html, Css, JavaScript/jQuery.
 
+## How To Install
+
+* To run this file, download the GitHub zip file or clone the repository
+* Open the index.html file in your browser
 
 ## Screenshot
 
